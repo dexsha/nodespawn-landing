@@ -223,7 +223,7 @@ button {
   letter-spacing: 0.14em;
   color: var(--accent);
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .hero__headline {
@@ -260,14 +260,13 @@ button {
   letter-spacing: 0.14em;
   color: var(--accent);
   text-transform: uppercase;
-  margin-bottom: 12px;
 }
 
 .section__title {
   font-family: var(--font-mono);
   font-size: clamp(1.6rem, 3.5vw, 2.2rem);
   font-weight: 700;
-  margin-bottom: 52px;
+  margin-bottom: 14px;
   letter-spacing: -0.01em;
 }
 
@@ -290,7 +289,6 @@ button {
 
 .card:hover {
   border-color: var(--accent);
-  transform: translateY(-3px);
 }
 
 .card__icon {
@@ -406,58 +404,6 @@ button {
 }
 
 /* =====================
-   CONTACT
-   ===================== */
-.contact__inner {
-  max-width: 680px;
-}
-
-.contact__sub {
-  font-size: 1rem;
-  color: var(--text-muted);
-  margin-bottom: 40px;
-  margin-top: -32px;
-}
-
-.contact__form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.form__row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-
-.form__input {
-  width: 100%;
-  padding: 14px 16px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  color: var(--text);
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
-  transition: border-color var(--transition);
-  outline: none;
-}
-
-.form__input::placeholder {
-  color: var(--text-muted);
-}
-
-.form__input:focus {
-  border-color: var(--accent);
-}
-
-.form__textarea {
-  resize: vertical;
-  min-height: 140px;
-}
-
-/* =====================
    FOOTER
    ===================== */
 .footer {
@@ -473,10 +419,47 @@ button {
   gap: 12px;
 }
 
+.footer__contact {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer__contact li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.footer__contact li svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.footer__contact a {
+  color: var(--text-muted);
+  transition: color var(--transition);
+}
+
+.footer__contact a:hover {
+  color: var(--accent);
+}
+
 .footer__copy {
+  display: flex;
+  height: 1rem;
   font-size: 0.8rem;
   color: var(--text-muted);
   font-family: var(--font-mono);
+}
+
+.copyright {
+  font-size: 1rem;
 }
 
 /* =====================
@@ -500,10 +483,6 @@ button {
 
   .services__grid,
   .work__grid {
-    grid-template-columns: 1fr;
-  }
-
-  .form__row {
     grid-template-columns: 1fr;
   }
 
