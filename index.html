@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nodespawn — App Development Studio</title>
+  <meta name="description" content="Nodespawn is a focused app development studio building mobile and web products that are fast, purposeful, and built to last." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">NODESPAWN</a>
+      <nav class="nav__links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <p class="hero__label">App Development Studio</p>
+      <h1 class="hero__headline">
+        We build apps<br />that <span class="accent">matter</span>
+      </h1>
+      <p class="hero__sub">
+        Nodespawn is a focused studio crafting mobile and web products that are fast, purposeful, and built to last.
+      </p>
+      <a href="#contact" class="btn">Start a project</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="section__label">What we do</p>
+      <h2 class="section__title">Our Services</h2>
+      <div class="services__grid">
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+              <rect x="7" y="2" width="10" height="20" rx="2"/>
+              <circle cx="12" cy="18" r="0.75" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Mobile Apps</h3>
+          <p class="card__desc">Native and cross-platform apps for iOS and Android — smooth, performant, and user-centered.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="4" width="20" height="14" rx="2"/>
+              <path d="M8 22h8M12 18v4"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Web Platforms</h3>
+          <p class="card__desc">Scalable web applications and SaaS products engineered for reliability and growth.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+            </svg>
+          </div>
+          <h3 class="card__title">Design Systems</h3>
+          <p class="card__desc">Cohesive design systems and component libraries that make products feel intentional at every level.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section section--alt" id="work">
+    <div class="container">
+      <p class="section__label">Selected work</p>
+      <h2 class="section__title">Our Projects</h2>
+      <div class="work__grid">
+
+        <div class="work-card">
+          <div class="work-card__image"></div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Pulsetrack</h3>
+            <p class="work-card__desc">A real-time analytics dashboard for e-commerce teams.</p>
+            <div class="work-card__tags">
+              <span class="tag">Web App</span>
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-card__image work-card__image--2"></div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Vaultr</h3>
+            <p class="work-card__desc">A secure mobile password and credentials manager.</p>
+            <div class="work-card__tags">
+              <span class="tag">Mobile</span>
+              <span class="tag">React Native</span>
+              <span class="tag">Encryption</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-card__image work-card__image--3"></div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Gridstone</h3>
+            <p class="work-card__desc">A design system and component library for enterprise teams.</p>
+            <div class="work-card__tags">
+              <span class="tag">Design System</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Storybook</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact__inner">
+      <p class="section__label">Get in touch</p>
+      <h2 class="section__title">Start a Project</h2>
+      <p class="contact__sub">Have an idea? We'd love to hear it. Tell us what you're building.</p>
+      <form class="contact__form" action="#" method="post">
+        <div class="form__row">
+          <input class="form__input" type="text" name="name" placeholder="Your name" required />
+          <input class="form__input" type="email" name="email" placeholder="Your email" required />
+        </div>
+        <textarea class="form__input form__textarea" name="message" placeholder="Tell us about your project..." required></textarea>
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="nav__logo">NODESPAWN</span>
+      <p class="footer__copy">&copy; 2026 Nodespawn. Built with purpose.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
