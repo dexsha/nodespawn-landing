@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - privacy_policy_binaural_beats_soundscapes.md
+  - privacy/privacy_policy_binaural_beats_soundscapes.md
