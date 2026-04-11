@@ -121,6 +121,10 @@ This includes:
 * Time spent in the App
 * Crash reports and performance data
 
+We use consent signals to control analytics data collection in accordance with applicable laws. Where required, analytics storage and processing may depend on user consent, and may be limited if consent is not provided.
+
+Consent is obtained via in-app consent prompts and can be withdrawn at any time.
+
 ## 9. In-App Purchases
 
 In-app purchases are managed by **RevenueCat**.
