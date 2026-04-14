@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective date: April 8, 2026**
+**Effective date: April 14, 2026**
 
 ## 1. Introduction
 
@@ -180,14 +180,28 @@ You may request deletion of your data by contacting:
 
 **[dev@nodespawn.com](mailto:dev@nodespawn.com)**
 
+### How to request deletion
 Please include:
+- The app name (**Binaural Beats Soundscapes**)  
+- Any relevant identifying details (e.g., device information)
 
-* The app name (**Binaural Beats Soundscapes**)
-* Any relevant identifying details
+### What data is deleted
+Upon request, we will take reasonable steps to delete data associated with your device collected through the app, including:
 
-We will process requests within a reasonable timeframe.
+- **Analytics data** (such as app usage events and interactions) collected via Firebase Analytics  
+- **Crash and diagnostic data** (such as crash logs, device type, and operating system version) collected via Firebase Crashlytics  
+- **Advertising-related data** (such as device identifiers like Advertising ID) used by AdMob for ad delivery and personalization, where applicable  
+- **Purchase and subscription data** (such as transaction history and anonymous user identifiers) processed via RevenueCat  
 
-Some data may be retained where required by law or processed by third parties under their own policies.
+### Important notes
+
+- This app does not use user accounts. Data is associated with your device and may not always be individually identifiable  
+- Some data may be processed and stored by third-party providers (such as Google and RevenueCat), and deletion of such data may require action in accordance with their respective privacy policies
+- Users can reset their advertising identifier in device settings to limit further data collection for advertising purposes  
+- Certain data may be retained where required by law, for fraud prevention, or for financial record-keeping  
+
+### Processing time
+We will process deletion requests within a reasonable timeframe (typically within 30 days).
 
 ## 15. Data Security
 
