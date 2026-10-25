@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 
-These Terms of Use (“Terms”) describe the rules and conditions for using the mobile application **Binaural Beats Soundscapes** (the “App”), operated by **Blaž Primožič, s.p.**, Trg komandanta Staneta 8, 1000 Ljubljana, Slovenia (“we”, “our”, or “us”).
+These Terms of Use (“Terms”) describe the rules and conditions for using the mobile application **Binaural Beats & White Noise** (the “App”), operated by **Blaž Primožič, s.p.**, Trg komandanta Staneta 8, 1000 Ljubljana, Slovenia (“we”, “our”, or “us”).
 
 By downloading or using the App, you agree to these Terms. If you do not agree, you should not use the App.
 
