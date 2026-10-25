@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 
-This Privacy Policy describes how **Blaž Primožič, s.p.**, Trg komandanta Staneta 8, 1000 Ljubljana, Slovenia (“we”, “our”, or “us”) collects, uses, and shares information when you use the mobile application **Binaural Beats Soundscapes** (the “App”).
+This Privacy Policy describes how **Blaž Primožič, s.p.**, Trg komandanta Staneta 8, 1000 Ljubljana, Slovenia (“we”, “our”, or “us”) collects, uses, and shares information when you use the mobile application **Binaural Beats & White Noise** (the “App”).
 
 We are the data controller for personal data collected through the App, except where third-party services act as independent data controllers.
 
@@ -182,7 +182,7 @@ You may request deletion of your data by contacting:
 
 ### How to request deletion
 Please include:
-- The app name (**Binaural Beats Soundscapes**)  
+- The app name (**Binaural Beats & White Noise**)  
 - Any relevant identifying details (e.g., device information)
 
 ### What data is deleted
